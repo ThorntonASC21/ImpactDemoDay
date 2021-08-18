@@ -1,0 +1,167 @@
+@media(max-width: 640px) {
+    body {
+        align-content: center;
+        font-size: 12px;
+        flex-direction: column;
+    }
+}
+
+@media(max-height: 360px) {
+    body {
+        align-content: center;
+        font-size: 75%;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1030px) {
+    body {
+        font-size: 120%;
+    }
+    .card_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 50;
+    }
+}
+
+h1 {
+display: flex;
+justify-content: flex-start;
+
+}
+
+h2 {
+  font-weight: 100;
+  font-display: bold;
+  color: #7392b7;
+  border-bottom: 5px solid black;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+body {
+  background-color: #36454F;
+}
+.items {
+  border: 5px solid #B3c5d7;
+  height: 30px;
+  width: 55px;
+  padding: 10px;
+  color: #C5D5EA;
+}
+.dropbtn {
+    background-color: #d8e1e9;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropbtns {
+    background-color: #d8e1e9;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdowns {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowns-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ 
+  .dropdowns-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdowns-content a:hover {background-color: #ddd;}
+  
+
+  .dropdowns:hover .dropdowns-content {
+    display: block;
+  }
+  
+  .dropdowns:hover .dropbtns {background-color: #3e8e41;}
+
+::placeholder {
+  text-align: center;
+}
+
+.state {
+  background-color: black;
+}
+
+
+.radi {
+  background-color: #d8e1e9;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.radius {
+  position: relative;
+  display: inline-block;
+}
+
+.radiuss {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.radiuss option {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.radiuss option:hover {background-color: #ddd;}
+
+.radius:hover .radiuss {
+  display: block;
+}
+
+.radius:hover .radi {background-color: #3e8e41;}
+
+.clearButton option:hover {background-color: #3e8e41;}
+
+#about_div {
+  text-align: center;
+  color: #d8e1e9;
+  background-color: #759eb8;
+  padding: 5px;
+}
+
+img {
+  color: #c5d5ea;
+  height: 100px;
+  width: 100px;
+}
